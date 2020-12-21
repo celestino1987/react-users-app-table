@@ -76,7 +76,7 @@ export const CreandoTabla = () => {
                 <div className="footer"> 
                 <TableCell >
                                 <FormControl >
-                                    <InputLabel htmlFor="my-input">Buscando..</InputLabel>
+                                    <InputLabel htmlFor="my-input">Buscando...</InputLabel>
                                     <Input id="my-input" aria-describedby="my-helper-text" onChange={(ev) => filteringUsers(ev.target.value)} />
                                     <FormHelperText id="my-helper-text"> Buscar tu candidato</FormHelperText>
                                 </FormControl>
